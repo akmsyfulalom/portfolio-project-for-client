@@ -5,7 +5,7 @@ const FacebookPosts = () => {
   console.log(posts)
   const accessToken = async () => {
     try {
-      const response = await fetch("https://graph.facebook.com/v13.0/oauth/access_token?client_id=279337471165975&client_secret=97c7dfbd4ac638e220be49b77bec2ca2&grant_type=client_credentials");
+      const response = await fetch("https://graph.facebook.com/v13.0/oauth/access_token?client_id=982082919468048&client_secret=05e00a5eb9cedf2ab2d248003e642202&grant_type=client_credentials");
       
       if (response.ok) {
         const data = await response.json();
