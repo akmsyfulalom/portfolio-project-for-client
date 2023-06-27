@@ -1,6 +1,6 @@
 "use client"
 import { useState } from 'react';
-import Player from './Player';
+import FacebookPosts from './Facebook';
 
 
 const Tabs = () => {
@@ -13,7 +13,7 @@ const Tabs = () => {
   return (
     <div className="p-5">
       
-      {activeTab === 'Facebook' &&  <Player />}
+      {activeTab === 'Facebook' &&  <FacebookPosts />}
       {activeTab === 'YouTube' && <p>YouTube content goes here</p>}
       {activeTab === 'Spotify' && <p>Spotify content goes here</p>}
       {activeTab === 'TikTok' && <p>TikTok content goes here</p>}

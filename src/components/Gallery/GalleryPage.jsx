@@ -25,6 +25,8 @@ const GalleryPage = () => {
         setCurrentImage(currentImage + 1);
     };
     
+
+
     const images = [
         {
             decs: "Melodies in Motion: Capturing musical passion.", 
@@ -77,10 +79,10 @@ const GalleryPage = () => {
   return (
       <div className=" p-5 ">
                 <h2 className="text-center md:text-5xl text-2xl ml-5 md:mt-10 mt-5">Alonzo Johnson</h2>
-                <p className="text-center md:text-2xl text-xl mb-5 md:mb-5">I'm God's child! I'm a sinner fighting the good fight with Love and prayer.</p>
+                <p className=" text-center md:text-2xl text-xl mb-5 md:mb-5">I'm God's child! I'm a sinner fighting the good fight with Love and prayer.</p>
                 <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-4  ">
                     {images?.map((image, i) => (
-                       <div key={i} className="card  m-0 border">
+                       <div key={i} className="card  m-0 border hover:scale-105 transform transition-transform duration-300 cursor-zoom-in">
                        <div className="card-body  p-5 hover:" onClick={() => openImage(i)}>
                          <p className="font-semibold ">{image?.decs}</p>
                          <div className="image-wrapper">

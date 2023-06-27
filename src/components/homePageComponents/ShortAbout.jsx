@@ -1,6 +1,7 @@
 import React from 'react'
 import shortAboutImage from "/public/shortAboutImage.jpg"
 import Image from 'next/image'
+import Link from 'next/link'
 
 const ShortAbout = () => {
   return (
@@ -14,7 +15,7 @@ const ShortAbout = () => {
       <p>Alonzo Johnson</p>
       <p>Azo4life</p>
       </div>
-      <button className="btn btn-primary">Know more</button>
+      <Link href="/about" className="btn btn-primary">Know more</Link>
     </div>
  
    
