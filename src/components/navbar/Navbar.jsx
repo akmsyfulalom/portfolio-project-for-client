@@ -9,11 +9,6 @@ function Navbar({ dark = false }) {
       url: "/"
     },
     {
-      id: 2,
-      name: "Activities",
-      url: "/activities"
-    },
-    {
       id: 3,
       name: "Gallery",
       url: "/gallery"
