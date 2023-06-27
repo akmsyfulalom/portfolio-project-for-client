@@ -54,7 +54,7 @@ const Footer = () => {
   </div>
     </div> 
     <div>
-      <p>Copyright © 2023 - All right reserved by Alonzo Johnson</p>
+      <p>© Copyright 2023 - All right reserved by Alonzo Johnson</p>
     </div>
   </footer>
   )
